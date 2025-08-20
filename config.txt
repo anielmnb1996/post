@@ -1,0 +1,28 @@
+{
+    "path_checkpoints": [
+        "/root/focus-api-new/repositories/Fooocus/models/checkpoints"
+    ],
+    "path_loras": [
+        "/root/focus-api-new/repositories/Fooocus/models/loras"
+    ],
+    "path_embeddings": "/root/focus-api-new/repositories/Fooocus/models/embeddings",
+    "path_vae_approx": "/root/focus-api-new/repositories/Fooocus/models/vae_approx",
+    "path_vae": "/root/focus-api-new/repositories/Fooocus/models/vae",
+    "path_upscale_models": "/root/focus-api-new/repositories/Fooocus/models/upscale_models",
+    "path_inpaint": "/root/focus-api-new/repositories/Fooocus/models/inpaint",
+    "path_controlnet": "/root/focus-api-new/repositories/Fooocus/models/controlnet",
+    "path_clip_vision": "/root/focus-api-new/repositories/Fooocus/models/clip_vision",
+    "path_fooocus_expansion": "/root/focus-api-new/repositories/Fooocus/models/prompt_expansion/fooocus_expansion",
+    "path_wildcards": "/root/focus-api-new/repositories/Fooocus/wildcards",
+    "path_safety_checker": "/root/focus-api-new/repositories/Fooocus/models/safety_checker",
+    "path_sam": "/root/focus-api-new/repositories/Fooocus/models/sam",
+    "default_model": "realismEngineSDXL_v30VAE.safetensors",
+    "default_cfg_scale": 5,
+    "default_sample_sharpness": 2.0,
+    "default_sampler": "dpmpp_2m_sde_gpu",
+    "default_scheduler": "karras",
+    "default_performance": "Speed",
+    "default_loras": [["PerfectEyesXL.safetensors", 1.0],["JuggerCineXL2.safetensors", 1.0],["hand_5_5.safetensors", 1.0]],
+    "default_vae": "sdxlVAE_sdxlVAE.safetensors",
+    "path_outputs": "/root/focus-api-new/repositories/Fooocus/outputs"
+}
